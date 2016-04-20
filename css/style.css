@@ -1,0 +1,42 @@
+body{
+	background-color: LightGray; 
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em; 
+	-webkit-font-smoothing: antialiased;
+}
+
+div{
+	border: 1px solid Chocolate;
+}
+
+.top-navigation{
+	background-color: #fff; 
+}
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.top-navigation .links > li{
+	display: inline-block;
+	margin: 1em; 
+	transition: color 0.1s ease; 
+	cursor: pointer;
+}
+.top-navigation .links > li:hover{
+	color: black;
+}
+.links{
+	margin: -2em 10em; 	
+}
+.top-navigation .links > .active{
+	color: #4c5058;
+	font-weight: 500; 
+}
+.logo{
+	padding: 0px 5px;
+	width: 2em;
+}
