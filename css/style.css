@@ -19,6 +19,9 @@ div{
 
 .top-navigation{
 	background-color: #fff; 
+	position: fixed;
+	width: 100%;
+	z-index: 9999; 
 }
 .top-navigation > .content{
 	width: 970px;
@@ -45,4 +48,59 @@ div{
 .logo{
 	padding: 0px 5px;
 	width: 2em;
+}
+.introduction{
+	background-image: url("../image/background image.jpg");
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem; 
+}
+.introduction .content{
+	color: #fff; 
+	padding: 20em;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 18px; 
+	margin: 0 auto;
+	text-align: center;
+}
+button{
+	text-shadow: none;
+	border-style: none; 
+	border-radius: 4px; 
+	display: block;
+	margin: 0 auto; 
+	padding: 1rem 1.5rem;
+	width: 10em; 
+	background-color:;
+	font-size: 
+	color: #fff;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #f15a00; 
+}
+section{
+	display: block;
+}
+.cases{
+	background-color: #fff; 
+	padding-bottom: 5rem; 
+	overflow: hidden;
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.2em; 
+}
+.cases .content li{
+	display: inline-block;
+	margin: 4em;
+	text-align: center;
+	padding: 1em;
+	font-weight: 400; 
+	width: 20%; 
+	box-sizing: border-box;
+	height: 4em
 }
